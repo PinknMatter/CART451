@@ -1,0 +1,29 @@
+body {
+    background-color: #070926;
+}
+h1 {
+    text-align: center;
+    color: #73168C;
+}
+h2{
+    color: #9F2CBF;
+    
+}
+
+h3{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+.week {
+    position: relative;
+    background-color: #281259;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
