@@ -27,3 +27,40 @@ p{
     margin-left: 30px;
     margin-right: 30px;
 }
+
+/* Base styling for the button */
+.download-btn {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  
+    cursor: pointer;
+    text-decoration: none; /* Useful if this button is an anchor (<a>) element */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Main button color */
+.download-btn {
+    background-color: #007BFF; /* Blue */
+    color: #FFFFFF;
+}
+
+/* Hover effect */
+.download-btn:hover {
+    background-color: #0056b3; /* Darker blue */
+    transform: scale(1.05); /* Slightly increase the size when hovered */
+}
+
+/* Active (clicked) effect */
+.download-btn:active {
+    background-color: #004280; /* Even darker blue */
+    transform: scale(1); /* Revert to original size when clicked */
+}
+
+/* If you want to also add a focus state for better accessibility */
+.download-btn:focus {
+    outline: none; /* Remove the default browser outline */
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Add a soft glow around the button */
+}
